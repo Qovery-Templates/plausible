@@ -1,0 +1,14 @@
+application:
+  name: plausible
+  project: CHANGEME
+  organization: CHANGEME
+databases:
+- name: psql
+  type: postgresql
+  version: 12
+routers:
+- name: plausible-router
+  routes:
+  - application_name: plausible
+    paths:
+    - "/"
