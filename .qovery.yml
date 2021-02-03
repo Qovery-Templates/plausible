@@ -2,6 +2,8 @@ application:
   name: plausible
   project: CHANGEME
   organization: CHANGEME
+  depends_on:
+  - clickhouse
 databases:
 - name: psql
   type: postgresql
